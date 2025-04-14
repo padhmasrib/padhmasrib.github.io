@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slideshow</title>
+  <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/default.css">
+  <link rel="stylesheet" href="styles/slideshow.css">
+</head>
+
+<body>
+  <header>
+    <div data-include="components/header.html"></div>
+  </header>
+  <main>
+    <h2>Slideshow of My Name Images</h2>
+
+    <div class="s-container">
+      <div class="mySlides">
+        <img src="images/slideshow/Professor.jpg" class="s-image" alt="P - Picture of Professor">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/Apple-laptop.jpg" class="s-image" alt="A - Picture of Apple Laptop">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/Door.jpg" class="s-image" alt="D - Picture of Door">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/Hand-Holding-Masks.jpg" class="s-image" alt="H - Picture of Hand Holding Masks">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/Masks.jpg" class="s-image" alt="M - Picture of Masks">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/Arm.jpg" class="s-image" alt="A - Picture of Arm">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/Stairs.jpg" class="s-image" alt="S - Picture of Stairs">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/Rug.jpg" class="s-image" alt="R - Picture of Rug">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/iPhone.jpg" class="s-image" alt="I - Picture of iPhone">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/Board.jpg" class="s-image" alt="B - Picture of Board">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/Airpod-cases.jpg" class="s-image" alt="A - Picture of Airpod Cases">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/Stargate.jpg" class="s-image" alt="S - Picture of Stargate">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/Keys.jpg" class="s-image" alt="K - Picture of Keys">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/Arm-rest.jpg" class="s-image" alt="A - Picture of Arm-rest">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/Ring.jpg" class="s-image" alt="R - Picture of Ring">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/Air-conditioner-vent.jpg" class="s-image" alt="A - Picture of Air-conditioner Vent">
+      </div>
+
+      <div class="mySlides">
+        <img src="images/slideshow/Notebook.jpg" class="s-image" alt="N - Picture of Notebook">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+    </div>
+
+    <div class="thumbnail-container">
+      <div class="row">
+        <div class="column">
+          <img class="thumbnail cursor" src="images/slideshow/Professor.jpg" style="width:100%"
+            onclick="currentSlide(1)" alt="Professor">
+        </div>
+        <div class="column">
+          <img class="thumbnail cursor" src="images/slideshow/Apple-laptop.jpg" style="width:100%"
+            onclick="currentSlide(2)" alt="Apple-laptop">
+        </div>
+        <div class="column">
+          <img class="thumbnail cursor" src="images/slideshow/Door.jpg" style="width:100%" onclick="currentSlide(3)"
+            alt="Door">
+        </div>
+        <div class="column">
+          <img class="thumbnail cursor" src="images/slideshow/Hand-Holding-Masks.jpg" style="width:100%"
+            onclick="currentSlide(4)" alt="Hand-Holding-Masks">
+        </div>
+        <div class="column">
+          <img class="thumbnail cursor" src="images/slideshow/Masks.jpg" style="width:100%" onclick="currentSlide(5)"
+            alt="Masks">
+        </div>
+        <div class="column">
+          <img class="thumbnail cursor" src="images/slideshow/Arm.jpg" style="width:100%" onclick="currentSlide(6)"
+            alt="Arm">
+        </div>
+        <div class="column">
+          <img src="images/slideshow/Stairs.jpg" class="thumbnail cursor" onclick="currentSlide(7)" alt="Stairs">
+        </div>
+        <div class="column">
+          <img src="images/slideshow/Rug.jpg" class="thumbnail cursor" onclick="currentSlide(8)" alt="Rug">
+        </div>
+        <div class="column">
+          <img src="images/slideshow/iPhone.jpg" class="thumbnail cursor" onclick="currentSlide(9)" alt="iPhone">
+        </div>
+        <div class="column">
+          <img src="images/slideshow/Board.jpg" class="thumbnail cursor" onclick="currentSlide(10)" alt="Board">
+        </div>
+        <div class="column">
+          <img src="images/slideshow/Airpod-cases.jpg" class="thumbnail cursor" onclick="currentSlide(11)" alt="Airpod Cases">
+        </div>
+        <div class="column">
+          <img src="images/slideshow/Stargate.jpg" class="thumbnail cursor" onclick="currentSlide(12)" alt="Stargate">
+        </div>
+        <div class="column">
+          <img src="images/slideshow/Keys.jpg" class="thumbnail cursor" onclick="currentSlide(13)" alt="Keys">
+        </div>
+        <div class="column">
+          <img src="images/slideshow/Arm-rest.jpg" class="thumbnail cursor" onclick="currentSlide(14)" alt="Arm-rest">
+        </div>
+        <div class="column">
+          <img src="images/slideshow/Ring.jpg" class="thumbnail cursor" onclick="currentSlide(15)" alt="Ring">
+        </div>
+        <div class="column">
+          <img src="images/slideshow/Air-conditioner-vent.jpg" class="thumbnail cursor" onclick="currentSlide(16)" alt="Air-conditioner Vent">
+        </div>
+        <div class="column">
+          <img src="images/slideshow/Notebook.jpg" class="thumbnail cursor" onclick="currentSlide(17)" alt="Notebook">
+        </div>
+      </div>
+
+    </div>
+    <br>
+    <br>
+
+  </main>
+
+  <footer>
+    <div data-include="components/footer.html"></div>
+  </footer>
+
+  <script>
+    document.getElementById("validation-link-html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+    document.getElementById("validation-link-css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+  </script>
+  <script src="scripts/HTMLInclude.min.js"></script>
+  <script src="scripts/slideshow.js"></script>
+</body>
+
+</html>

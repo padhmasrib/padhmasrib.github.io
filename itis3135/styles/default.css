@@ -1,8 +1,10 @@
 body {
-    background-color: darkslategray;
+    /* background-color: darkslategray; */
+    background-color: rgb(5, 59, 59);
     text-align: center;
-    color: gray;
+    /* color: gray; */
     /* color: white; */
+    color: rgb(207, 202, 217);
     font-family: monospace;
 }
 
