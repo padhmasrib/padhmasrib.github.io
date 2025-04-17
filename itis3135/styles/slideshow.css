@@ -60,7 +60,6 @@ a:hover {
 /* Next & previous buttons */
 .prev,
 .next {
-  cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
@@ -99,16 +98,18 @@ a:hover {
 }
 
 
-/* .thumbnail-container { */
+.thumbnail-container {
+    /* width: 90%; /* Container width */
+    margin: auto;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Keep thumbnails in a single row */
+    border: 1px solid #ccc; /* Optional: Add a border for clarity */
+    padding: 10px 0;
+  /* }
+  .thumbnail-row { */
+
+}
 .row {
-  width: 90%; /* Container width */
-  margin: auto;
-  overflow-x: scroll; /* Enable horizontal scrolling */
-  white-space: nowrap; /* Keep thumbnails in a single row */
-  border: 1px solid #ccc; /* Optional: Add a border for clarity */
-  padding: 10px 0;
-/* }
-.thumbnail-row { */
   display: inline-flex; /* Ensure thumbnails are side-by-side */
 }
 
@@ -129,7 +130,7 @@ a:hover {
   opacity: 0.6;
 /*------*/
   width: 100px; /* Thumbnail width */
-  height: auto; /* Maintain aspect ratio */
+  height: 80px; /*auto; /* Maintain aspect ratio */
   margin: 0 10px; /* Add spacing between thumbnails */
   border: 2px solid #ddd; /* Optional: Add thumbnail border */
   border-radius: 5px; /* Optional: Rounded corners */
