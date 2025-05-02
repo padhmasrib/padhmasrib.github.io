@@ -1,4 +1,4 @@
-.topics-container {
+#topics-container {
   flex: 1;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.867);
@@ -10,4 +10,19 @@
   line-height: 1.6;
   font-family: 'Roboto','Poppins';
   letter-spacing: 1px;
+}
+
+.topic-btn {
+  background-color: #4da8ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.topic-btn:hover {
+  background-color: #FFD700;
 }
