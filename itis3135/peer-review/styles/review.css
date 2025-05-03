@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+  color: black;
+  text-align: left;
+  margin-left: 20px;
+  line-height: 1.5;
+  font-family: 'Roboto', 'Poppins';
+  letter-spacing: 1px;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+figure {
+  text-align: center;
+  font-style: italic;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h1 {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+a:hover {
+  color: darkcyan;
+}
+
+footer {
+  font-size: 0.8em; /* Smaller text */
+  text-align: left;
+}
