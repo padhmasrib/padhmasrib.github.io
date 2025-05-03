@@ -6,7 +6,9 @@ let hoursRadius;
 let clockDiameter;
 
 function setup() {
-  createCanvas(600, 400);
+  let canvas = createCanvas(600, 400);
+  canvas.parent('canvas-container');
+
   stroke(255);
   angleMode(DEGREES);
 

@@ -1,6 +1,10 @@
-
 canvas {
   display: block;
-  padding: 70px;
+  margin: auto;
 }
 
+#canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
