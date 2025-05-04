@@ -1,3 +1,30 @@
+/* Rule Overrides For Laptops / Small Screens */
+@media screen and (min-width: 981px) and (max-width: 1400px) {
+    main {
+        max-width: 1200px;
+        width: 90%;
+        margin: 0 auto; /* centers the content horizontally */
+    }
+}
+
+/* Rule Overrides For Tablet Devices */
+@media screen and (min-width: 601px) and (max-width: 980px) {
+    main {
+        max-width: 900px;
+        width: 90%; /* adjust percentage based on design requirements */
+        margin: 0 auto;
+    }
+}
+
+/* Rule Overrides For Mobile Devices */
+@media screen and (min-width: 370px) and (max-width: 600px) {
+    main {
+        max-width: 550px;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
 body {
     /* background-color: darkslategray; */
     background-color: rgb(5, 59, 59);
